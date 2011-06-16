@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GPS Robot Host - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\js\LOCALS~1\Temp\RSP522.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/GPS Robot Host.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\users\szielenski\Personal\Education\CE490\Code\Host Code\GPS Robot Host No NI\ControlDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\js\LOCALS~1\Temp\RSP522.tmp" 
+Creating temporary file "C:\DOCUME~1\js\LOCALS~1\Temp\RSP523.tmp" with contents
+[
+winmm.lib mfcs42d.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GPS Robot Host.pdb" /debug /machine:I386 /nodefaultlib:"libc" /out:"Debug/GPS Robot Host.exe" /pdbtype:sept 
+".\Debug\ControlDlg.obj"
+".\Debug\GPS Robot Host.obj"
+".\Debug\GPS Robot HostDoc.obj"
+".\Debug\GPS Robot HostView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PathConfigDlg.obj"
+".\Debug\RobotCtrlDlg.obj"
+".\Debug\SerialPortDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GPS Robot Host.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\js\LOCALS~1\Temp\RSP523.tmp"
+<h3>Output Window</h3>
+Compiling...
+ControlDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+GPS Robot Host.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
